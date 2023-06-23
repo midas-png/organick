@@ -1,0 +1,122 @@
+.light {
+    color: #fff;
+}
+
+.ui__button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #efd372;
+    border: none;
+    border-radius: 16px;
+    height: 82px;
+    width: fit-content;
+    gap: 25px;
+    padding: 25px 9px 25px 33px;
+    color: #274c5b;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    cursor: pointer;
+}
+
+.ui__arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 19px;
+    height: 38px;
+    width: 38px;
+    background: #274c5b;
+}
+
+.ui__button_secondary {
+    background: #274c5b;
+    color: #fff;
+}
+
+.ui__button_secondary > .ui__arrow {
+    background: #335b6b;
+}
+
+.ui__button_transparent {
+    border: 1px solid #274c5b;
+    color: #274c5b;
+    background: transparent;
+}
+
+.ui_card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 16px;
+    background: #f9f8f8;
+}
+
+.card__type {
+    display: flex;
+    align-items: center;
+    min-width: 44px;
+    border-radius: 8px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+    color: #ffffff;
+    background: #274c5b;
+    padding: 0 20px;
+    height: 37px;
+    width: fit-content;
+}
+
+.card__info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card__name {
+    font-family: "Roboto";
+    font-size: 22px;
+    line-height: 35px;
+    letter-spacing: 0.36px;
+    color: #274c5b;
+}
+
+.card__divider {
+    height: 1px;
+    background: #d8d8d8;
+}
+
+.card__stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.card__prices {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card__discount {
+    font-family: "Open Sans";
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    text-decoration-line: line-through;
+    color: #b8b8b8;
+}
+
+.card__price {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    color: #274c5b;
+}

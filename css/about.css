@@ -1,0 +1,96 @@
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 130px 30px 140px;
+    background: #f9f8f8;
+}
+
+.about__picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.about__pretitle {
+    font-family: "Yellowtail";
+    font-size: 36px;
+    line-height: 65px;
+    letter-spacing: 0.36px;
+    color: #7eb693;
+}
+
+.about__titles {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.about__title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 58px;
+    letter-spacing: 0.36px;
+    color: #274c5b;
+    width: 521px;
+}
+
+.about__description {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    color: #525c60;
+    width: 670px;
+}
+
+.about__benefit {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.benefit {
+    display: flex;
+    gap: 20px;
+}
+
+.benefit__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.benefit__content {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.benefit__title {
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0.36px;
+    color: #274c5b;
+}
+
+.benefit__description {
+    font-family: "Open Sans";
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    color: #525c60;
+    width: 552px;
+}

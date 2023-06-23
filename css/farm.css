@@ -1,0 +1,76 @@
+.farm {
+    display: flex;
+}
+
+.farm__side {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #fff;
+}
+
+.farm__content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 533px;
+    width: 100%;
+    margin-right: 60px;
+    padding: 40px 0 50px 60px;
+    border-radius: 30px;
+    background: #fff;
+}
+
+.farm__titles {
+    display: flex;
+    flex-direction: column;
+}
+
+.farm__subtitle {
+    font-family: "Yellowtail";
+    font-size: 36px;
+    line-height: 65px;
+    letter-spacing: 0.36px;
+    color: #7eb693;
+}
+
+.farm__title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 58px;
+    letter-spacing: 0.36px;
+    max-width: 301px;
+    color: #274c5b;
+}
+
+.farm__information {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.information__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.information__title {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    color: #274c5b;
+}
+
+.information__description {
+    font-family: "Open Sans";
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    max-width: 601px;
+    color: #525c60;
+}

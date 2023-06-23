@@ -1,0 +1,53 @@
+.specials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 140px 30px;
+    background: #fff;
+}
+
+.specials__banner {
+    position: relative;
+    width: 665px;
+    height: 378px;
+    cursor: pointer;
+}
+
+.banner__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.banner__content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 55px;
+    height: 100%;
+    z-index: 2;
+}
+
+.banner__information {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.banner__title {
+    font-family: "Yellowtail";
+    font-size: 36px;
+    line-height: 65px;
+    color: #274C5B;
+}
+
+.banner__subtitle {
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.36px;
+    color:#274C5B;
+    width: 264px;
+}

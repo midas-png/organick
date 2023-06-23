@@ -1,0 +1,35 @@
+.sections {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 140px 0;
+    background: #eff6f1;
+}
+
+.section__item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 580px;
+    width: 460px;
+    background: white;
+}
+
+.section__picture {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.section__name {
+    position: relative;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 30px 70px;
+    border-radius: 20px;
+    letter-spacing: 0.36px;
+    color: #274c5b;
+    background: #fff;
+}

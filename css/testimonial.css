@@ -1,0 +1,160 @@
+.testimonial {
+    position: relative;
+    padding: 30px;
+    padding-bottom: 150px;
+}
+
+.testimonial__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.testimonial__background > img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.testimonial__content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 130px;
+    gap: 60px;
+}
+
+.testimonial__titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.testimonial__subtitle {
+    font-family: "Yellowtail";
+    font-size: 36px;
+    line-height: 65px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #7eb693;
+}
+
+.testimonial__title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 58px;
+    letter-spacing: 0.36px;
+    color: #274c5b;
+}
+
+.testimonial__person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.person__assets {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.assets__person {
+    height: 115px;
+    width: 115px;
+}
+
+.assets__rating {
+    height: 27px;
+    width: 123px;
+}
+
+.person__review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+}
+
+.person__comment {
+    font-family: "Open Sans";
+    font-size: 18px;
+    text-align: center;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: #525c60;
+    max-width: 942px;
+}
+
+.data__name {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 34px;
+    letter-spacing: 0.36px;
+    color: #274c5b;
+}
+
+.data__undercomment {
+    font-family: "Open Sans";
+    font-size: 14px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: #525c60;
+}
+
+.testimonial__divider {
+    height: 1px;
+    width: 966px;
+    background: #e0e0e0;
+    margin: 36px 0;
+}
+
+.testimonial__stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+}
+
+.stats__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+    border-radius: 200px;
+    border: 6px solid #7eb693;
+}
+
+.stats__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f1f1f1;
+    height: calc(100% - 10px);
+    width: calc(100% - 10px);
+    border-radius: 200px;
+}
+
+.stats__title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 55px;
+    letter-spacing: 0.36px;
+    color: #274c5b;
+}
+
+.stats__subtitle {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    color: #274c5b;
+}
